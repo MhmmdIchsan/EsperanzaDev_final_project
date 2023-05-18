@@ -19,12 +19,11 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
-    <div id="app" style="background-image: url(bg_login.jpg)" class="bg-cover bg-center overflow-y-auto overflow-x-hidden flex-1">
-        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Book Me') }}
+<body style="background-image: url(bg_login.jpg)">
+        <nav class="navbar navbar-expand-md navbar-light " style="background-color:beige">
+            <div class="container" >
+                <a class="navbar-brand" href="{{ url('/') }}" >
+                    Book me
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
