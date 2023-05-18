@@ -7,10 +7,10 @@
    
 
     <!-- Content Row -->
-        <div class="card">
+        <div class="card shadow-xl">
             <div class="card-header py-3 d-flex">
                 <h6 class="m-0 font-weight-bold text-primary">
-                    {{ __('booking') }}
+                    {{ __('Booking') }}
                 </h6>
                 <div class="ml-auto">
                     @auth 
